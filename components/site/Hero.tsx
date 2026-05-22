@@ -22,12 +22,12 @@ export default function Hero() {
           </div>
 
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-[3.75rem] leading-[1.05] font-extrabold text-balance">
-            Rastreador veicular com GPS em tempo real e bloqueio remoto.
+            Monitoramento e rastreamento veicular em tempo real.
           </h1>
           <p className="mt-5 text-lg text-ink-muted max-w-xl leading-relaxed">
-            Acompanhe a localização, trajetos e informações do seu veículo
-            diretamente pelo celular. Instalação especializada em carros e
-            motos, sem fidelidade.
+            Acompanhe localização, trajetos e informações do veículo diretamente
+            pelo celular. Soluções de rastreamento para carros, motos,
+            caminhões, máquinas, tratores e veículos automotores em geral.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">

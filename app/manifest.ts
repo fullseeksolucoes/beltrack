@@ -7,14 +7,14 @@ export default function manifest(): MetadataRoute.Manifest {
     description:
       "Rastreador veicular com monitoramento em tempo real, bloqueio remoto e instalação especializada.",
     start_url: "/",
-    display: "standalone",
+    display: "minimal-ui",
     background_color: "#ffffff",
     theme_color: "#133a60",
     icons: [
       {
-        src: "/icon.svg",
+        src: "/favicon.ico",
         sizes: "any",
-        type: "image/svg+xml",
+        type: "image/x-icon",
       },
     ],
   };

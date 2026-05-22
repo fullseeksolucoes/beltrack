@@ -33,22 +33,24 @@ export const metadata: Metadata = {
     template: "%s | Beltrack",
   },
   description:
-    "Rastreador veicular com monitoramento em tempo real, bloqueio remoto e instalação especializada. Acompanhe seu veículo pelo celular. Sem fidelidade.",
+    "Rastreamento veicular em Sabará e região metropolitana de Belo Horizonte com monitoramento em tempo real, acesso via aplicativo e instalação especializada. Sem fidelidade.",
   keywords: [
-    "rastreador veicular",
-    "monitoramento veicular",
-    "rastreamento de veículos",
-    "bloqueio remoto veicular",
-    "GPS veicular",
-    "localizador veicular",
-    "rastreamento de frota",
-    "instalação de rastreador",
+    "rastreador veicular em Sabará",
+    "monitoramento veicular em Sabará",
+    "rastreamento veicular Belo Horizonte",
+    "rastreador veicular BH",
+    "rastreamento de veículos em BH",
+    "rastreamento região metropolitana BH",
+    "GPS veicular Sabará",
     "rastreador para carros",
     "rastreador para motos",
+    "rastreamento de frota",
+    "bloqueio remoto veicular",
     "Beltrack",
-    "rastreamento Belo Horizonte",
-    "rastreamento São Paulo",
-    "rastreador veicular Brasil",
+    "rastreador para tratores",
+    "rastreador para máquinas",
+    "rastreador para caminhões",
+    "rastreamento de frota em BH",
   ],
   robots: {
     index: true,
@@ -67,13 +69,13 @@ export const metadata: Metadata = {
     siteName: "Beltrack",
     title: "Beltrack – Rastreador Veicular | Monitoramento em Tempo Real",
     description:
-      "Rastreador veicular com monitoramento em tempo real, bloqueio remoto e instalação especializada. Acompanhe seu veículo pelo celular. Sem fidelidade.",
+      "Rastreamento veicular em Sabará e região metropolitana de Belo Horizonte com monitoramento em tempo real, acesso via aplicativo e instalação especializada. Sem fidelidade.",
     url: siteUrl,
     images: [
       {
-        url: "/logo-header.webp",
-        width: 170,
-        height: 36,
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
         alt: "Beltrack – Rastreador Veicular Inteligente",
       },
     ],
@@ -83,7 +85,7 @@ export const metadata: Metadata = {
     title: "Beltrack – Rastreador Veicular | Monitoramento em Tempo Real",
     description:
       "Rastreador veicular com monitoramento em tempo real, bloqueio remoto e instalação especializada. Sem fidelidade.",
-    images: ["/logo-header.webp"],
+    images: ["/og-image.jpg"],
   },
   alternates: {
     canonical: siteUrl,
@@ -103,10 +105,12 @@ export default function RootLayout({
     >
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/icon.svg" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.webmanifest" />
-        <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+        <meta
+          name="google-site-verification"
+          content="YOUR_VERIFICATION_CODE"
+        />
       </head>
       <body className="min-h-full flex flex-col antialiased">
         <StructuredData />
