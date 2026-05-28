@@ -5,6 +5,7 @@ import Header from "@/components/site/Header";
 import Footer from "@/components/site/Footer";
 import FloatingWhatsApp from "@/components/site/FloatingWhatsApp";
 import StructuredData from "@/components/site/StructuredData";
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -20,6 +21,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 const siteUrl = "https://beltrack.com.br";
 const gtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-MKLMQHF6";
+const gaId = process.env.NEXT_PUBLIC_GA_ID || "G-S5V2J9Q98Q";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -105,19 +107,11 @@ export default function RootLayout({
       className={`${inter.variable} ${plusJakartaSans.variable} h-full scroll-smooth`}
     >
       <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${gtmId}');`,
-          }}
-        />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.webmanifest" />
-        <meta
-          name="google-site-verification"
-          content="YOUR_VERIFICATION_CODE"
-        />
       </head>
+      <GoogleTagManager gtmId={gtmId} />
       <body className="min-h-full flex flex-col antialiased">
         <noscript>
           <iframe
@@ -132,6 +126,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <FloatingWhatsApp />
+        <GoogleAnalytics gaId={gaId} />
       </body>
     </html>
   );
