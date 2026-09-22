@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="md:col-span-5">
             <Logo variant="footer" />
             <p className="mt-5 text-sm text-white/60 max-w-sm leading-relaxed">
-              Rastreador veicular com tecnologia brasileira, monitoramento em
+              Rastreador veicular com tecnologia brasileira, rastreamento em
               tempo real e atendimento humano 24 horas por dia.
             </p>
           </div>
@@ -21,7 +21,7 @@ export default function Footer() {
 
         <div className="mt-14 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-white/50">
           <div className="leading-relaxed">
-            &copy; {new Date().getFullYear()} Beltrack Monitoramento Veicular.
+            &copy; {new Date().getFullYear()} Beltrack Rastreamento Veicular.
             Todos os direitos reservados.
           </div>
           <div className="flex items-center gap-4">

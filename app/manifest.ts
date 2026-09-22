@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Beltrack – Rastreador Veicular",
     short_name: "Beltrack",
     description:
-      "Rastreador veicular com monitoramento em tempo real, bloqueio remoto e instalação especializada.",
+      "Rastreador veicular com rastreamento em tempo real, bloqueio remoto e instalação especializada.",
     start_url: "/",
     display: "minimal-ui",
     background_color: "#ffffff",

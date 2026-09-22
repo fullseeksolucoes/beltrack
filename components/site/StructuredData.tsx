@@ -11,7 +11,7 @@ export default function StructuredData() {
         name: "Beltrack",
 
         description:
-          "Rastreamento veicular em Sabará e região metropolitana de Belo Horizonte com monitoramento em tempo real, acesso via aplicativo e instalação especializada.",
+          "Rastreamento veicular em Sabará e região metropolitana de Belo Horizonte com rastreamento em tempo real, acesso via aplicativo e instalação especializada.",
 
         url: "https://beltrack.com.br",
 
@@ -58,7 +58,7 @@ export default function StructuredData() {
         knowsAbout: [
           "Rastreamento veicular",
           "GPS automotivo",
-          "Monitoramento de frotas",
+          "Rastreamento de frotas",
           "Bloqueio remoto",
           "Rastreamento para motos",
           "Rastreamento para caminhões",
@@ -109,7 +109,7 @@ export default function StructuredData() {
         name: "Rastreamento Veicular Beltrack",
 
         description:
-          "Monitoramento veicular em tempo real, bloqueio remoto, histórico de trajetos e instalação especializada.",
+          "Rastreamento veicular em tempo real, bloqueio remoto, histórico de trajetos e instalação especializada.",
 
         provider: {
           "@id": "https://beltrack.com.br/#business",
@@ -134,7 +134,6 @@ export default function StructuredData() {
 
         serviceType: [
           "Rastreamento veicular",
-          "Monitoramento veicular",
           "Bloqueio remoto",
           "GPS veicular",
           "Rastreamento de frota",
@@ -249,7 +248,7 @@ export default function StructuredData() {
             acceptedAnswer: {
               "@type": "Answer",
 
-              text: "Não. A Beltrack é uma empresa de tecnologia especializada em rastreamento e monitoramento veicular. O serviço não substitui seguro automotivo.",
+              text: "Não. A Beltrack é uma empresa de tecnologia especializada em rastreamento veicular. O serviço não substitui seguro automotivo.",
             },
           },
 

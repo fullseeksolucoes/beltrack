@@ -32,14 +32,14 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Beltrack – Rastreador Veicular | Monitoramento em Tempo Real",
+    default: "Beltrack – Rastreador Veicular | Rastreamento em Tempo Real",
     template: "%s | Beltrack",
   },
   description:
-    "Rastreamento veicular em Sabará e região metropolitana de Belo Horizonte com monitoramento em tempo real, acesso via aplicativo e instalação especializada. Sem fidelidade.",
+    "Rastreamento veicular em Sabará e região metropolitana de Belo Horizonte com rastreamento em tempo real, acesso via aplicativo e instalação especializada. Sem fidelidade.",
   keywords: [
     "rastreador veicular em Sabará",
-    "monitoramento veicular em Sabará",
+    "rastreamento veicular em Sabará",
     "rastreamento veicular Belo Horizonte",
     "rastreador veicular BH",
     "rastreamento de veículos em BH",
@@ -70,9 +70,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     siteName: "Beltrack",
-    title: "Beltrack – Rastreador Veicular | Monitoramento em Tempo Real",
+    title: "Beltrack – Rastreador Veicular | Rastreamento em Tempo Real",
     description:
-      "Rastreamento veicular em Sabará e região metropolitana de Belo Horizonte com monitoramento em tempo real, acesso via aplicativo e instalação especializada. Sem fidelidade.",
+      "Rastreamento veicular em Sabará e região metropolitana de Belo Horizonte com rastreamento em tempo real, acesso via aplicativo e instalação especializada. Sem fidelidade.",
     url: siteUrl,
     images: [
       {
@@ -85,9 +85,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Beltrack – Rastreador Veicular | Monitoramento em Tempo Real",
+    title: "Beltrack – Rastreador Veicular | Rastreamento em Tempo Real",
     description:
-      "Rastreador veicular com monitoramento em tempo real, bloqueio remoto e instalação especializada. Sem fidelidade.",
+      "Rastreador veicular com rastreamento em tempo real, bloqueio remoto e instalação especializada. Sem fidelidade.",
     images: ["/og-image.jpg"],
   },
   alternates: {

@@ -18,11 +18,11 @@ export default function Hero() {
               <span className="absolute inline-flex h-full w-full rounded-full bg-brand-green opacity-75 animate-ping-slow" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-green" />
             </span>
-            Monitoramento ativo · 24/7
+            Rastreamento ativo · 24/7
           </div>
 
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-[3.75rem] leading-[1.05] font-extrabold text-balance">
-            Monitoramento e rastreamento veicular em tempo real.
+            Rastreamento veicular em tempo real.
           </h1>
           <p className="mt-5 text-lg text-ink-muted max-w-xl leading-relaxed">
             Acompanhe localização, trajetos e informações do veículo diretamente

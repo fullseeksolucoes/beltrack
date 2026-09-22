@@ -9,7 +9,7 @@ const points = [
 ];
 
 const aboutStats = [
-  { k: "+100", v: "Veículos monitorados" },
+  { k: "+100", v: "Veículos rastreados" },
   { k: "Suporte", v: "Técnico especializado" },
   { k: "Sem", v: "Fidelidade" },
 ];

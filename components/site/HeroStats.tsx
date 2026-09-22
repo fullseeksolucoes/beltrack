@@ -1,7 +1,7 @@
 import { Satellite, FileText, Smartphone } from "lucide-react";
 
 const items = [
-  { icon: Satellite, k: "GPS em tempo real", v: "Monitoramento inteligente" },
+  { icon: Satellite, k: "GPS em tempo real", v: "Rastreamento inteligente" },
   { icon: FileText, k: "Relat\u00f3rios completos", v: "Hist\u00f3rico de trajetos" },
   { icon: Smartphone, k: "Acesso mobile", v: "Controle via aplicativo" },
 ];

@@ -8,14 +8,14 @@ import Partnerships from "@/components/site/Partnerships";
 import CTASection from "@/components/site/CTASection";
 
 export const metadata: Metadata = {
-  title: "Rastreador Veicular | Monitoramento em Tempo Real",
+  title: "Rastreador Veicular | Rastreamento em Tempo Real",
   description:
     "Rastreador veicular com GPS em tempo real, bloqueio remoto e instalação especializada. Acompanhe seu veículo pelo celular sem fidelidade.",
   alternates: {
     canonical: "https://beltrack.com.br",
   },
   openGraph: {
-    title: "Rastreador Veicular Beltrack | Monitoramento em Tempo Real",
+    title: "Rastreador Veicular Beltrack | Rastreamento em Tempo Real",
     description:
       "Rastreador veicular com GPS em tempo real, bloqueio remoto e instalação especializada. Acompanhe seu veículo pelo celular sem fidelidade.",
     url: "https://beltrack.com.br",

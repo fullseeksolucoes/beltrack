@@ -14,7 +14,7 @@ import { waLink } from "@/lib/whatsapp";
 export const metadata: Metadata = {
   title: "Termos de Uso",
   description:
-    "Termos de Uso da Beltrack. Entenda as condições do serviço de rastreamento veicular, responsabilidades e limites do monitoramento GPS.",
+    "Termos de Uso da Beltrack. Entenda as condições do serviço de rastreamento veicular, responsabilidades e limites do rastreamento GPS.",
   robots: {
     index: true,
     follow: true,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Termos de Uso | Beltrack",
     description:
-      "Termos de Uso da Beltrack. Entenda as condições do serviço de rastreamento veicular, responsabilidades e limites do monitoramento GPS.",
+      "Termos de Uso da Beltrack. Entenda as condições do serviço de rastreamento veicular, responsabilidades e limites do rastreamento GPS.",
     url: "https://beltrack.com.br/termos",
   },
 };
@@ -42,16 +42,16 @@ const sections = [
           compreendido e aceito todas as condições descritas neste documento.
         </p>
         <p>
-          A Beltrack é uma empresa de tecnologia especializada em rastreamento e
-          monitoramento veicular. Nosso serviço consiste na instalação de
+          A Beltrack é uma empresa de tecnologia especializada em
+          rastreamento veicular. Nosso serviço consiste na instalação de
           equipamentos de rastreamento GPS, fornecimento de acesso à plataforma
-          de monitoramento via aplicativo e suporte técnico relacionado ao
+          de rastreamento via aplicativo e suporte técnico relacionado ao
           funcionamento do sistema.
         </p>
         <p>
           A Beltrack <strong>não é uma seguradora</strong> e{" "}
           <strong>não oferece seguro veicular</strong>. Os serviços prestados se
-          limitam ao rastreamento e monitoramento da localização do veículo,
+          limitam ao rastreamento da localização do veículo,
           conforme descrito neste documento.
         </p>
       </div>
@@ -66,7 +66,7 @@ const sections = [
         <ul className="space-y-2">
           {[
             "Instalação de equipamento de rastreamento GPS no veículo",
-            "Acesso ao aplicativo de monitoramento para acompanhamento da localização",
+            "Acesso ao aplicativo de rastreamento para acompanhamento da localização",
             "Histórico de trajetos e relatórios de deslocamento",
             "Alertas e notificações sobre movimentação do veículo",
             "Suporte técnico para orientação sobre o funcionamento do sistema",
@@ -96,7 +96,7 @@ const sections = [
           {[
             "Fornecer equipamento de rastreamento em boas condições de funcionamento",
             "Realizar a instalação do rastreador por técnico especializado",
-            "Disponibilizar acesso ao aplicativo de monitoramento",
+            "Disponibilizar acesso ao aplicativo de rastreamento",
             "Manter a plataforma em operação dentro dos limites técnicos descritos neste documento",
             "Prestar suporte técnico para dúvidas relacionadas ao funcionamento do sistema",
             "Substituir equipamentos com defeito comprovado de fabricação",
@@ -498,7 +498,7 @@ const sections = [
         </p>
         <p>
           A Beltrack é uma empresa de tecnologia que presta serviços de
-          rastreamento e monitoramento veicular. Nenhuma parte deste documento
+          rastreamento veicular. Nenhuma parte deste documento
           deve ser interpretada como contrato de seguro, garantia de recuperação
           veicular ou obrigação de resultado.
         </p>
@@ -510,7 +510,7 @@ const sections = [
 const faq = [
   {
     q: "A Beltrack é uma seguradora?",
-    a: "Não. A Beltrack é uma empresa de tecnologia especializada em rastreamento e monitoramento veicular. Não oferecemos seguros, não garantimos recuperação de veículos e não nos responsabilizamos por furto ou roubo.",
+    a: "Não. A Beltrack é uma empresa de tecnologia especializada em rastreamento veicular. Não oferecemos seguros, não garantimos recuperação de veículos e não nos responsabilizamos por furto ou roubo.",
   },
   {
     q: "O rastreamento funciona em qualquer situação?",

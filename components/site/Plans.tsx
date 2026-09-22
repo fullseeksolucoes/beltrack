@@ -56,7 +56,7 @@ export default function Plans() {
 
           <p className="mt-4 text-ink-muted max-w-lg">
             Todos os planos incluem instalação especializada, suporte técnico e
-            acesso ao aplicativo de monitoramento.
+            acesso ao aplicativo de rastreamento.
           </p>
         </div>
 

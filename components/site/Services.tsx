@@ -16,7 +16,7 @@ const services = [
   },
   {
     icon: Smartphone,
-    title: "Aplicativo de Monitoramento",
+    title: "Aplicativo de Rastreamento",
     desc: "Tenha acesso a todas as informações do veículo diretamente pelo celular: localização, trajetos, alertas e muito mais de forma prática.",
   },
   {
@@ -56,7 +56,7 @@ export default function Services() {
               Serviços
             </span>
             <h2 className="mt-3 text-3xl md:text-5xl font-extrabold text-balance">
-              Rastreador veicular com monitoramento em tempo real pelo celular.
+              Rastreador veicular com rastreamento em tempo real pelo celular.
             </h2>
           </div>
           <p className="max-w-md text-ink-muted">
